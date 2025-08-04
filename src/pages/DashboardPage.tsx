@@ -49,7 +49,7 @@ export function DashboardPage() {
           </p>
         </div>
         <div className="flex items-center space-x-4">
-          <Badge variant={isConnected ? "default" : "destructive"}>
+          <Badge variant={isConnected ? "default" : "secondary"}>
             SignalR: {isConnected ? "연결됨" : "끊김"}
           </Badge>
           {/* 👇👇 버튼의 onClick 이벤트를 새로 만든 핸들러로 교체합니다. */}
